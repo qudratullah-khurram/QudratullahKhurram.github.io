@@ -44,15 +44,16 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1 }}
       >
-        <motion.a
-          href={myCV}
-          download="Qudratullah_Khurram_CV.pdf"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          style={styles.cvButton}
-        >
-          Download CV
-        </motion.a>
+      <motion.a
+  href={myCV}
+  target="_blank" 
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  style={styles.cvButton}
+>
+  View CV
+</motion.a>
 
         <div style={styles.socials}>
           <a
