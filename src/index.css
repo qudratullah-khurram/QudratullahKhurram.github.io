@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b1220;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00bcd4;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+a svg:hover {
+  color: #00bcd4;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  filter: brightness(1.2);
+}
