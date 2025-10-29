@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -7,8 +7,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function App() {
+  const location = useLocation()
   return (
-    <Router>
+  <div>
       <motion.header
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -24,7 +25,7 @@ export default function App() {
         </nav>
       </motion.header>
 
-      <Routes>
+        <Routes locaction = {location} key = {location.pathname}>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
@@ -32,6 +33,6 @@ export default function App() {
       </Routes>
 
       <Footer />
-    </Router>
+   </div>
   );
 }

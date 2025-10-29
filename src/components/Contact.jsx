@@ -24,8 +24,6 @@ export default function Contact() {
         to reach out. I’m based in England and available for freelance or
         full-time opportunities.
       </motion.p>
-
-      {/* --- How I can help --- */}
       <motion.ul
         style={styles.skillsList}
         initial={{ opacity: 0 }}
@@ -37,8 +35,6 @@ export default function Contact() {
         <li>⚡ Performance Optimization & Scalability</li>
         <li>🤝 Collaborative & Team-Oriented</li>
       </motion.ul>
-
-      {/* --- Contact details --- */}
       <motion.div
         style={styles.contactDetails}
         initial={{ opacity: 0, y: 20 }}
@@ -58,8 +54,6 @@ export default function Contact() {
           </a>
         </p>
       </motion.div>
-
-      {/* --- Social Media Links --- */}
       <motion.div
         style={styles.socials}
         initial={{ opacity: 0, y: 20 }}
@@ -95,8 +89,6 @@ export default function Contact() {
           <FaLinkedinIn />
         </a>
       </motion.div>
-
-      {/* --- Tagline / closing --- */}
       <motion.p
         style={{ marginTop: "2rem", fontStyle: "italic" }}
         initial={{ opacity: 0 }}
