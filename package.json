@@ -1,9 +1,10 @@
 {
   "name": "my-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/qudratullah-khurram/QudratullahKhurram.github.io",
+  "homepage": "https://qudratullah-khurram.github.io"
+,
   "scripts": {
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
