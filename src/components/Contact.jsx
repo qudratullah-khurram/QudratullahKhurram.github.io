@@ -6,7 +6,8 @@ export default function Contact() {
     <section id="contact" style={styles.contactSection}>
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
         Contact Me
@@ -14,7 +15,7 @@ export default function Contact() {
 
       <motion.p
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
         style={{ maxWidth: "700px", margin: "0 auto", lineHeight: "1.8rem" }}
       >
@@ -27,7 +28,7 @@ export default function Contact() {
       <motion.ul
         style={styles.skillsList}
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.6 }}
       >
         <li>💻 Full-Stack Web Development (HTML, CSS, Javascript, Express, Python, Django, SQL, PostgreSQL)</li>
@@ -38,7 +39,7 @@ export default function Contact() {
       <motion.div
         style={styles.contactDetails}
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >
         <p>
@@ -57,7 +58,7 @@ export default function Contact() {
       <motion.div
         style={styles.socials}
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 0.6 }}
       >
         <a
@@ -92,7 +93,7 @@ export default function Contact() {
       <motion.p
         style={{ marginTop: "2rem", fontStyle: "italic" }}
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 0.6 }}
       >
         I’d love to hear about your project, ideas, or opportunities — let’s

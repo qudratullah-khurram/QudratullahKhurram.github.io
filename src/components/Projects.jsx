@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-
-// Example project images
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.jpg";
@@ -41,7 +39,7 @@ export default function Projects() {
     <section id="projects" style={styles.section}>
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         style={styles.title}
       >
@@ -57,7 +55,7 @@ export default function Projects() {
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             style={styles.card}
           >
