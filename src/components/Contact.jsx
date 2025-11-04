@@ -83,7 +83,7 @@ export default function Contact() {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/your-linkedin/"
+          href="www.linkedin.com/in/qudratullah-khurram-61b509397"
           target="_blank"
           rel="noopener noreferrer"
         >

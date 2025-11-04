@@ -78,7 +78,7 @@ export default function Hero() {
             <FaGithub />
           </a>
          <a
-            href="https://www.linkedin.com/in/qudratullah-khurram"
+            href="www.linkedin.com/in/qudratullah-khurram-61b509397"
             target="_blank"
             rel="noopener noreferrer"
           >
