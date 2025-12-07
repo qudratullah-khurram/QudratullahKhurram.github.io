@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FaFacebookF, FaGithub, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import myPhoto from "../assets/me.jpg"; 
 import Qudratullah_Khurram_CV from "../assets/Qudratullah_Khurram_CV.pdf"; 
-
+import Qudratullah_Khurram_Cover_Letter from "../assets/Qudratullah_Khurram_Cover_Letter.pdf"
 export default function Hero() {
   return (
     <section id="hero" style={styles.heroSection}>
@@ -54,7 +54,16 @@ export default function Hero() {
 >
   View CV
 </motion.a>
-
+<motion.a
+  href={Qudratullah_Khurram_Cover_Letter}
+  target="_blank"
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  style={styles.cvButton}
+>
+  View Cover Letter
+</motion.a>
         <div style={styles.socials}>
           <a
             href="https://www.facebook.com/share/1G3XWqojn7/?mibextid=wwXIfr"
