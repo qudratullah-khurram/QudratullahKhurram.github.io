@@ -45,7 +45,7 @@ export default function Hero() {
         transition={{ delay: 1 }}
       >
       <motion.a
-  href={myCV}
+  href={Qudratullah_Khurram_CV}
   target="_blank" 
   rel="noopener noreferrer"
   whileHover={{ scale: 1.05 }}
