@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaFacebookF, FaGithub, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import myPhoto from "../assets/me.jpg"; 
-import myCV from "../assets/MyCV.pdf"; 
+import Qudratullah_Khurram_CV from "../assets/Qudratullah_Khurram_CV.pdf"; 
 
 export default function Hero() {
   return (
